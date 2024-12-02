@@ -201,6 +201,11 @@ PrefabInstance:
       propertyPath: NewObjective
       value: Follow bearing 155
       objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: FinalCheckPoint
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1705,6 +1710,11 @@ PrefabInstance:
       propertyPath: NewObjective
       value: Go west to find supply station
       objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: FinalCheckPoint
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2438,6 +2448,7 @@ MonoBehaviour:
   Name: Info
   FinalCheckPoint: 0
   FinalScene: Success
+  Delay: 10
   ActivateObject: {fileID: 891798244}
   NewObjective: Read instruction and go outiside
   fadeImage: {fileID: 0}
@@ -2602,6 +2613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: NewObjective
       value: Go to the station
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: FinalCheckPoint
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2839,6 +2855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: NewObjective
       value: Speak to Tom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: FinalCheckPoint
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4418,10 +4439,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 525047477}
   NewObjective: Go outside
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1033614443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4791,7 +4814,7 @@ PrefabInstance:
     - target: {fileID: 8346669987310924140, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: m_Name
-      value: Gintaras
+      value: Tom
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -4817,7 +4840,7 @@ PrefabInstance:
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: FinalCheckPoint
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4956,6 +4979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Burning Wool
   Description: The wool is burning because current goes through it
+  Equipable: 0
   ItemImage: {fileID: -1555430417, guid: 6e44d10b79777c440a4d75551245af12, type: 3}
   RequiredItems:
   - Battery
@@ -5672,6 +5696,11 @@ PrefabInstance:
       propertyPath: NewObjective
       value: Go to the station
       objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: FinalCheckPoint
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5728,6 +5757,7 @@ MonoBehaviour:
   Name: Info
   FinalCheckPoint: 0
   FinalScene: Success
+  Delay: 10
   ActivateObject: {fileID: 0}
   NewObjective: Pick up the compass
   fadeImage: {fileID: 0}
@@ -8124,6 +8154,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StartMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
+      propertyPath: Text
+      value: It seems like you're lost, go to the safety hut to find equipment that
+        will lead you outside of forest.
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
