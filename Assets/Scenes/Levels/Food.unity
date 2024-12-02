@@ -238,10 +238,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &2090739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -406,10 +408,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &8105514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -888,10 +892,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &49586646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1187,10 +1193,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1340655213}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &89285444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1355,10 +1363,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &92391659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1793,10 +1803,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &135515427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2432,10 +2444,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1824356152}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &182965066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2774,10 +2788,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1824356152}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &224663830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3009,10 +3025,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 0}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!4 &226600114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec9d4b181ca7f9e4c80927683214c412,
@@ -3388,10 +3406,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2024570986}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &313937168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3740,10 +3760,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &354213047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4714,6 +4736,11 @@ PrefabInstance:
       objectReference: {fileID: 1742240676}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
+      propertyPath: FinalScene
+      value: Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
       propertyPath: NextTarget
       value: 
       objectReference: {fileID: 0}
@@ -5051,10 +5078,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &510816373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5139,6 +5168,7 @@ MonoBehaviour:
   Name: Info
   FinalCheckPoint: 0
   FinalScene: Success
+  Delay: 10
   ActivateObject: {fileID: 748489293}
   NewObjective: Find white mushroom
   fadeImage: {fileID: 0}
@@ -5553,10 +5583,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &595553599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5727,10 +5759,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &625377260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5907,10 +5941,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &656830757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6178,10 +6214,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &674348346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6346,10 +6384,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &693864246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6588,10 +6628,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &710573543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6774,10 +6816,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1824356152}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &723211257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7081,10 +7125,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 424531487}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &748489295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7383,10 +7429,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &772348729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8208,10 +8256,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 0}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!4 &811691860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5fd984d2752602b458b408ab245bf779,
@@ -8334,10 +8384,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &814857209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8831,10 +8883,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &877522166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8940,6 +8994,7 @@ MonoBehaviour:
   Name: Info
   FinalCheckPoint: 0
   FinalScene: Success
+  Delay: 10
   ActivateObject: {fileID: 0}
   NewObjective: 
   fadeImage: {fileID: 0}
@@ -9400,10 +9455,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1824356152}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &950134350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9568,10 +9625,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &953628123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10107,10 +10166,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 0}
   NewObjective: Go outside
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1033614443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10467,10 +10528,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1057487982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10841,10 +10904,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1064574153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10951,6 +11016,7 @@ MonoBehaviour:
   Name: Info
   FinalCheckPoint: 0
   FinalScene: Success
+  Delay: 10
   ActivateObject: {fileID: 0}
   NewObjective: Find some apples
   fadeImage: {fileID: 0}
@@ -11119,10 +11185,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1138274902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11437,10 +11505,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1152513589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11636,7 +11706,7 @@ Transform:
   - {fileID: 214407609}
   - {fileID: 811691860}
   - {fileID: 226600114}
-  - {fileID: 1582379687}
+  - {fileID: 1582379681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1168873870
@@ -11755,10 +11825,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1168873874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11923,10 +11995,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1170803414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12159,10 +12233,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1195650786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12327,10 +12403,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1201365033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12489,10 +12567,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1204252597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12577,10 +12657,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: Knife
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 543438978}
   NewObjective: 
   FarmCountToActivate: 5
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1207181659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12691,6 +12773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Burning Wool
   Description: The wool is burning because current goes through it
+  Equipable: 0
   ItemImage: {fileID: -1555430417, guid: 6e44d10b79777c440a4d75551245af12, type: 3}
   RequiredItems:
   - Battery
@@ -13196,10 +13279,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1318482685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14074,10 +14159,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1023861001}
   NewObjective: 
   FarmCountToActivate: 3
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!1001 &1495211325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14313,10 +14400,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1501572623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14575,10 +14664,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1526326843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14743,10 +14834,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 795400588}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1565487300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14861,105 +14954,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582379684}
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582379683}
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582379682}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7d9fffac4c7b140a8644f79d7d9021, type: 3}
---- !u!1 &1582379681 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
-    type: 3}
-  m_PrefabInstance: {fileID: 1582379680}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1582379682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TooltipText: Take Knife
-  TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
-    type: 3}
-  SSTooltipPrefab: {fileID: 0}
-  TooltipHeight: 0.5
-  TooltipZOffset: 0
-  FarmItem:
-    Name: Knife
-    Description: j
-    Equipable: 1
-  OneTimeFarm: 1
-  RequiredItem: 
-  ActivateObject: {fileID: 0}
-  NewObjective: 
-  FarmCountToActivate: 0
-  SpawnTooltipOnSSCanvas: 0
---- !u!65 &1582379683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.004, y: 0.004, z: 0.006}
-  m_Center: {x: 4.074536e-10, y: -0.00000011954398, z: -2.9103763e-11}
---- !u!54 &1582379684
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!4 &1582379687 stripped
+--- !u!4 &1582379681 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1081015514369248609, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+  m_CorrespondingSourceObject: {fileID: 2680508272574997128, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
     type: 3}
   m_PrefabInstance: {fileID: 1582379680}
   m_PrefabAsset: {fileID: 0}
@@ -15230,10 +15229,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1656404603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20973,10 +20974,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1246690244}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1788160209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21287,10 +21290,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1835597596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21631,10 +21636,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1860052545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22888,10 +22895,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &2002614673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23736,10 +23745,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 445518219}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &2035492462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24074,10 +24085,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1824356152}
   NewObjective: 
   FarmCountToActivate: 1
   SpawnTooltipOnSSCanvas: 1
+  IsTree: 0
 --- !u!65 &2064819473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24276,10 +24289,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2003114702}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &2117549739
 BoxCollider:
   m_ObjectHideFlags: 0

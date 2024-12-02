@@ -1534,10 +1534,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 10989398}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!4 &226600114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec9d4b181ca7f9e4c80927683214c412,
@@ -3126,6 +3128,11 @@ PrefabInstance:
       objectReference: {fileID: 1742240676}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
+      propertyPath: FinalScene
+      value: Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+        type: 3}
       propertyPath: NextTarget
       value: 
       objectReference: {fileID: 563246807}
@@ -3259,10 +3266,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 1656910433}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &555282450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4023,10 +4032,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 446470586}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!1001 &703760959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5269,10 +5280,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 2140130386}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!4 &811691860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5fd984d2752602b458b408ab245bf779,
@@ -5923,10 +5936,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 0}
   NewObjective: Go outside
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &1033614443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6215,6 +6230,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062815517}
   m_CullTransparentMesh: 1
+--- !u!1 &1107446053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8346669987310924140, guid: 8b52cba346fc0264285fd2dd8e6a0051,
+    type: 3}
+  m_PrefabInstance: {fileID: 1494707069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1147891223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6327,7 +6348,7 @@ Transform:
   - {fileID: 214407609}
   - {fileID: 811691860}
   - {fileID: 226600114}
-  - {fileID: 1582379687}
+  - {fileID: 1582379681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1172639150
@@ -6455,6 +6476,7 @@ MonoBehaviour:
   Name: Burning Wool
   Description: The steel wool is burning because current goes through it. Requires
     battery and steel wool.
+  Equipable: 0
   ItemImage: {fileID: 21300000, guid: f5b3675c4f4b59e48bddaf3eccdea0ca, type: 3}
   RequiredItems:
   - Battery
@@ -7303,12 +7325,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b52cba346fc0264285fd2dd8e6a0051, type: 3}
---- !u!1 &1494707070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8346669987310924140, guid: 8b52cba346fc0264285fd2dd8e6a0051,
-    type: 3}
-  m_PrefabInstance: {fileID: 1494707069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1582379680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7372,64 +7388,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 227.451
       objectReference: {fileID: 0}
+    - target: {fileID: 2680508272574997128, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680508272574997128, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680508272574997128, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.948
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+    - targetCorrespondingSourceObject: {fileID: 3348642647414962226, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1582379684}
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+      addedObject: {fileID: 1597226261}
+    - targetCorrespondingSourceObject: {fileID: 3348642647414962226, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1582379683}
-    - targetCorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+      addedObject: {fileID: 1597226260}
+    - targetCorrespondingSourceObject: {fileID: 3348642647414962226, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1582379682}
+      addedObject: {fileID: 1597226259}
   m_SourcePrefab: {fileID: 100100000, guid: 6d7d9fffac4c7b140a8644f79d7d9021, type: 3}
---- !u!1 &1582379681 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 309439193499178971, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
+--- !u!4 &1582379681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2680508272574997128, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
     type: 3}
   m_PrefabInstance: {fileID: 1582379680}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1582379682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TooltipText: Take Knife
-  TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
+--- !u!1 &1597226258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3348642647414962226, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
     type: 3}
-  SSTooltipPrefab: {fileID: 0}
-  TooltipHeight: 0.5
-  TooltipZOffset: 0
-  FarmItem:
-    Name: Knife
-    Description: j
-    Equipable: 1
-  OneTimeFarm: 1
-  RequiredItem: 
-  ActivateObject: {fileID: 1494707070}
-  NewObjective: 
-  FarmCountToActivate: 0
-  SpawnTooltipOnSSCanvas: 0
---- !u!65 &1582379683
+  m_PrefabInstance: {fileID: 1582379680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1597226259
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
+  m_GameObject: {fileID: 1597226258}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7442,15 +7451,15 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.004, y: 0.004, z: 0.006}
-  m_Center: {x: 4.074536e-10, y: -0.00000011954398, z: -2.9103763e-11}
---- !u!54 &1582379684
+  m_Size: {x: 0.003, y: 0.003, z: 0.003}
+  m_Center: {x: 0.00000023882603, y: -3.3469405e-10, z: -2.9103817e-11}
+--- !u!54 &1597226260
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582379681}
+  m_GameObject: {fileID: 1597226258}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -7471,12 +7480,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!4 &1582379687 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1081015514369248609, guid: 6d7d9fffac4c7b140a8644f79d7d9021,
-    type: 3}
-  m_PrefabInstance: {fileID: 1582379680}
+--- !u!114 &1597226261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597226258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TooltipText: Pick knife
+  TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
+    type: 3}
+  SSTooltipPrefab: {fileID: 0}
+  TooltipHeight: 0.5
+  TooltipZOffset: 0
+  FarmItem:
+    Name: Knife
+    Description: 
+    Equipable: 1
+  OneTimeFarm: 1
+  RequiredItem: 
+  DiscardRequiredItem: 0
+  ActivateObject: {fileID: 1107446053}
+  NewObjective: 
+  FarmCountToActivate: 0
+  SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!1001 &1597502660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7845,10 +7878,12 @@ MonoBehaviour:
     Equipable: 0
   OneTimeFarm: 1
   RequiredItem: 
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 659401843}
   NewObjective: 
   FarmCountToActivate: 0
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!54 &1663305651
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9948,7 +9983,7 @@ PrefabInstance:
         type: 3}
       propertyPath: NextTarget
       value: 
-      objectReference: {fileID: 1582379681}
+      objectReference: {fileID: 1597226258}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: NewObjective
@@ -10154,17 +10189,19 @@ MonoBehaviour:
     type: 3}
   SSTooltipPrefab: {fileID: 0}
   TooltipHeight: 1.5
-  TooltipZOffset: 0
+  TooltipZOffset: 0.55
   FarmItem:
     Name: Stick
     Description: h
     Equipable: 0
   OneTimeFarm: 0
   RequiredItem: Knife
+  DiscardRequiredItem: 0
   ActivateObject: {fileID: 831495552}
   NewObjective: 
   FarmCountToActivate: 5
   SpawnTooltipOnSSCanvas: 0
+  IsTree: 0
 --- !u!65 &2066464279
 BoxCollider:
   m_ObjectHideFlags: 0
