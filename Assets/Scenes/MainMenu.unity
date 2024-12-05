@@ -829,10 +829,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Defense:In this level, you will learn how to find food
-            in the woods. Look for edible berries, and mushrooms, but be careful-some
-            are poisonous. Look at the color of it. Use your fire to cook food you
-            find. Staying fed is important for your survival.
+          m_StringArgument: Defense:In this level, you will learn how to protect
+            yourself in the wild. Wolves may attack, so you must find ways to stay
+            safe. Use fire to scare them away. Learn to stay calm and survive.
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &557464049
@@ -989,7 +988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -23}
+  m_AnchoredPosition: {x: 0, y: 188}
   m_SizeDelta: {x: 612, y: 488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662601625
@@ -1012,7 +1011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NUMBER 3 - COMPASS
+  m_text: 'Use these controls to explore the world and complete tasks:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1480,7 +1479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 134.5}
+  m_AnchoredPosition: {x: 0, y: 84}
   m_SizeDelta: {x: 670, y: 445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827177136
@@ -2099,7 +2098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -115.5}
+  m_AnchoredPosition: {x: 0, y: -97}
   m_SizeDelta: {x: 618, y: 485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998079418
@@ -3364,7 +3363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 222.5}
+  m_AnchoredPosition: {x: 0, y: -36}
   m_SizeDelta: {x: 670, y: 445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1631434118
@@ -3498,7 +3497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 48.5}
+  m_AnchoredPosition: {x: 0, y: 27}
   m_SizeDelta: {x: 670, y: 445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813149843

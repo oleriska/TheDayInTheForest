@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.3337396, g: 0.35320255, b: 0.31398308, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.005
@@ -739,7 +739,7 @@ PrefabInstance:
     - target: {fileID: 4557657495470774043, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 40.963158
+      value: 8.7022505
       objectReference: {fileID: 0}
     - target: {fileID: 4557657495470774043, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -754,7 +754,7 @@ PrefabInstance:
     - target: {fileID: 4557657495470774043, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 38.4
+      value: 26.4
       objectReference: {fileID: 0}
     - target: {fileID: 4557657495470774043, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -814,8 +814,8 @@ PrefabInstance:
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: Text
-      value: Sounds like wolfs. Wolfs afraid of fire, get 15 sticks for fire. Don't
-        go near wolves, try not to provoke them
+      value: Sounds like wolfs! Wolfs afraid of fire, so get 15 sticks for fire.
+        Don't go near wolves, try not to provoke them
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -933,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: Text
-      value: 'You have enough to make big fire '
+      value: You have enough to make big fire to scare wolves!
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -6862,7 +6862,8 @@ PrefabInstance:
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: Text
-      value: 'Your knife snapped and broke its blade. Try to sharpen stone with it '
+      value: Oh no! Your knife's blade has snapped and broken. However, you can still
+        use it to sharpen a stone, which will come in handy for cutting sticks.
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -9875,7 +9876,7 @@ MonoBehaviour:
     type: 3}
   SSTooltipPrefab: {fileID: 0}
   TooltipHeight: 1.55
-  TooltipZOffset: 0.6
+  TooltipZOffset: 0.78
   FarmItem:
     Name: Broken blade
     Description: 
@@ -10962,7 +10963,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Text
       value: 'You''ve heard barking to the west, there''s an old camp, go there to
-        investigate  '
+        investigate! '
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}

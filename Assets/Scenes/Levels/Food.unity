@@ -12650,7 +12650,7 @@ MonoBehaviour:
     type: 3}
   SSTooltipPrefab: {fileID: 0}
   TooltipHeight: 2
-  TooltipZOffset: 0.3
+  TooltipZOffset: 0.6
   FarmItem:
     Name: Stick
     Description: 

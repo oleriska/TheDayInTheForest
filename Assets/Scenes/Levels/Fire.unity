@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.23117888, g: 0.294136, b: 0.4898966, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.005
@@ -7292,8 +7292,8 @@ PrefabInstance:
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
       propertyPath: Text
-      value: Seems like there's nothing left in the camp, now you need to get some
-        stick and stones. Stones might be on shore of that lake
+      value: Seems like there's nothing left in the camp. Now you need to get some
+        stick and stones for fire. Stones might be on shore of that lake.
       objectReference: {fileID: 0}
     - target: {fileID: 8929887868641788829, guid: 8b52cba346fc0264285fd2dd8e6a0051,
         type: 3}
@@ -10189,7 +10189,7 @@ MonoBehaviour:
     type: 3}
   SSTooltipPrefab: {fileID: 0}
   TooltipHeight: 1.5
-  TooltipZOffset: 0.55
+  TooltipZOffset: 0.6
   FarmItem:
     Name: Stick
     Description: h
