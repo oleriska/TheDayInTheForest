@@ -2802,9 +2802,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Raft:In this level, you will learn how to protect yourself
-            in the wild. Wolves may attack, so you must find ways to stay safe. Use
-            fire to scare them away. Learn to stay calm and survive.
+          m_StringArgument: Raft:In this level, you will learn how to cross a river
+            to reach to the dog. Find materials in the woods to build a raft, like
+            logs and vine. Assemble the raft step by step. Once it's ready, use it
+            to cross the river safely.
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &1412769970
