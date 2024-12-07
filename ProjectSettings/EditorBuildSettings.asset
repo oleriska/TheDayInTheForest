@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Defense.unity
     guid: c40512706cbcf534bb38212ca3235951
   - enabled: 1
+    path: Assets/Scenes/Levels/Raft.unity
+    guid: 7acba706fd1fe804094126a9bf1edc50
+  - enabled: 1
     path: Assets/Scenes/Fail.unity
     guid: a7343c4b5cb2f4540a04a6e076e2769c
   - enabled: 1
