@@ -16,8 +16,6 @@ public class MenuController : MonoBehaviour
     private StarterAssetsInputs playerInputs;
     private InventoryManager inventoryManager;
 
-    public event Action onItemPickup;
-    // Start is called before the first frame update
     void Start()
     {
         _inputAsset = GetComponent<PlayerInput>();

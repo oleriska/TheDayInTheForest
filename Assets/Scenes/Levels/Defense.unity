@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.3337396, g: 0.35320255, b: 0.31398308, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.005
@@ -716,6 +716,7 @@ RectTransform:
   - {fileID: 346328079}
   - {fileID: 2017819252}
   - {fileID: 1691743392}
+  - {fileID: 1261884450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2737,6 +2738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Cut Tree
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}
@@ -3395,6 +3397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Cut Tree
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}
@@ -4722,6 +4725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Pick Stone
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}
@@ -6354,6 +6358,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256034126}
   m_CullTransparentMesh: 1
+--- !u!1001 &1261884449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 171952787}
+    m_Modifications:
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460008763686028338, guid: a85cab0d1dd243a4b99dd97493bec901,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemsChange
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a85cab0d1dd243a4b99dd97493bec901, type: 3}
+--- !u!224 &1261884450 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3129082429441194829, guid: a85cab0d1dd243a4b99dd97493bec901,
+    type: 3}
+  m_PrefabInstance: {fileID: 1261884449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1271318529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9019,6 +9147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Cut Stick
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}
@@ -9254,6 +9383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Cut Tree
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}
@@ -9871,6 +10001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bec92c44646df43a469a75c4cf1a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 0}
   TooltipText: Cut Stick
   TooltipPrefab: {fileID: 7979013328594213748, guid: 3db6b995975372749859b36ba9937837,
     type: 3}

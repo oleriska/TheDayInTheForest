@@ -25,7 +25,7 @@ public class DisplayCraft : MonoBehaviour
     private Image _buttonColors;
     private bool _craftAvailable;
 
-    private void CheckAvailability()
+    private void CheckAvailability(Item eventItem)
     {
         foreach (var item in RequiredItems)
         {
@@ -45,8 +45,8 @@ public class DisplayCraft : MonoBehaviour
     private void Start()
     {
         _buttonColors = GetComponent<Image>();
-        CheckAvailability();
-        InventoryManager.Instance.onItemPickup += CheckAvailability;
+        CheckAvailability(null);
+        InventoryManager.Instance.OnItemAdded += CheckAvailability;
         ItemText.text = Name;
         DescriptionText.text = Description;
     }
@@ -67,6 +67,6 @@ public class DisplayCraft : MonoBehaviour
         }
         InventoryManager.Instance.AddItem(new Item(Name, DescriptionText.text, Equipable));
         HandsController.Instance.Disarm();
-        CheckAvailability();
+        CheckAvailability(null);
     }
 }

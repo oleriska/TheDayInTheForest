@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 public class ResourceController : MonoBehaviour
 {
     [SerializeField]
+    AudioClip Sound;
+    [SerializeField]
     private string TooltipText;
     [SerializeField]
     private GameObject TooltipPrefab;
@@ -52,11 +54,6 @@ public class ResourceController : MonoBehaviour
 
         _farm = _playerInput.actions.FindAction("Farm");
         _farm.performed += Farm;
-
-        if(_playerInput == null)
-        {
-            Debug.Log("nulll");
-        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -100,7 +97,6 @@ public class ResourceController : MonoBehaviour
         Vector3 directionToPlayer = _playerCamera.position - tooltipInstance.transform.position;
         tooltipInstance.transform.rotation = Quaternion.LookRotation(directionToPlayer);
         tooltipInstance.transform.Rotate(0, 180, 0);
-        Debug.Log("Get rotated idiot"); // https://knowyourmeme.com/memes/get-rotated-idiot
     }
 
     private void Farm(InputAction.CallbackContext context)
@@ -116,6 +112,28 @@ public class ResourceController : MonoBehaviour
 
         InventoryManager.Instance.AddItem(FarmItem);
         _farmCount++;
+
+        if(Sound != null)
+        {
+            // Create an empty GameObject
+            GameObject audioObject = new GameObject("AudioSourceObject");
+
+            // Add an AudioSource component
+            AudioSource audioSource = audioObject.AddComponent<AudioSource>();
+
+            // Assign the AudioClip to the AudioSource
+            audioSource.clip = Sound;
+
+            // Optionally configure the AudioSource settings
+            audioSource.playOnAwake = false;
+            audioSource.loop = false; // Set true if you want the audio to loop
+
+            // (Optional) Play the sound immediately
+            audioSource.Play();
+
+            // Destroy the GameObject after the clip finishes playing
+            Destroy(audioObject, Sound.length);
+        }
 
         if(IsTree)
         {

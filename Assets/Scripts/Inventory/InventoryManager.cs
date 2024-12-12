@@ -26,11 +26,16 @@ public class InventoryManager : MonoBehaviour
     private InputAction _toggleCompass;
     private StarterAssetsInputs playerInputs;
 
-    public event Action onItemPickup;
+    public event Action<Item> OnItemAdded;
+    public event Action<Item> OnItemRemoved;
 
-    public void OnItemPickupTrigger()
+    public void OnItemAddedTrigger(Item item)
     {
-        onItemPickup?.Invoke();
+        OnItemAdded?.Invoke(item);
+    }
+    public void OnItemRemovedTrigger(Item item)
+    {
+        OnItemRemoved?.Invoke(item);
     }
 
     private void Awake()
@@ -84,13 +89,14 @@ public class InventoryManager : MonoBehaviour
     {
         PlayerItems.Remove(item);
         UpdateInventoryUI();
+        OnItemRemovedTrigger(item);
     }
     public void AddItem(Item item)
     {
         PlayerItems.Add(item);
         UpdateInventoryUI();
-        OnItemPickupTrigger();
-    }    
+        OnItemAddedTrigger(item);
+    }
 
     private void ToggleInventory(InputAction.CallbackContext context)
     {
