@@ -7,6 +7,8 @@ public class MenuManager : MonoBehaviour
     private GameObject mainMenu;
     [SerializeField]
     private GameObject levelSelection;
+    [SerializeField]
+    private GameObject settings;
 
     public void LoadScene(string sceneName)
     {
@@ -20,6 +22,7 @@ public class MenuManager : MonoBehaviour
 
     public void EnableMain()
     {
+        settings.SetActive(false);
         levelSelection.SetActive(false);
         mainMenu.SetActive(true);
     }
@@ -29,6 +32,11 @@ public class MenuManager : MonoBehaviour
         mainMenu.SetActive(false);
         levelSelection.SetActive(true);
     }
+    public void EnableSettings()
+    {
+        settings.SetActive(true);
+        mainMenu.SetActive(false);
+    }    
     public void HandleExit()
     {
         Application.Quit();
